@@ -1,0 +1,7 @@
+For successfully run this project you need to follow following straps:
+1)create virtual environment: pyhton -m venv env_name
+2)activate virtual environment: env_name\Scripts\activate.bat
+2)install django: pip install django
+3)install requests package(for sending http requests): pip install requests 
+(go to inside the project directory 'weather_website' using cd command)
+4)run sever : python manage.py runserver
