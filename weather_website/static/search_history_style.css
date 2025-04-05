@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, #e0f7fa, #fff3e0);
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.history-container {
+    max-width: 700px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004d40;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 12px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    transition: background-color 0.2s;
+}
+
+.history-item:hover {
+    background-color: #e0e0e0;
+}
+
+.city a {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.timestamp {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.delete-button {
+    color: #dc3545;
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.delete-button:hover {
+    color: #a71d2a;
+}
+
+.back-button {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
